@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TVShowsListViewController: BaseProductionsListViewController {
+final class TVShowsListViewController: BaseProductionsListViewController {
     
     // MARK: - Life cycle
     override func viewDidLoad() {

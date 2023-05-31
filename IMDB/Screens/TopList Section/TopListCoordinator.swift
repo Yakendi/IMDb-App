@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TopListCoordinator: Coordinator {
+final class TopListCoordinator: Coordinator {
     
     // MARK: - Public
     var navigationController: UINavigationController

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TVShowsListCoordinator: Coordinator {
+final class TVShowsListCoordinator: Coordinator {
     
     // MARK: - Public
     var navigationController: UINavigationController

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class OverviewCoordinator: Coordinator {
+final class OverviewCoordinator: Coordinator {
     
     // MARK: - Public
     var navigationController: UINavigationController

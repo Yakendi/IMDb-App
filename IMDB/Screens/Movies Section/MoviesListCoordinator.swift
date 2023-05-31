@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MoviesListCoordinator: Coordinator {
+final class MoviesListCoordinator: Coordinator {
     
     // MARK: - Public
     var navigationController: UINavigationController

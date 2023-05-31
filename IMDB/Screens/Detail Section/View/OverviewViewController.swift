@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class OverviewViewController: UIViewController {
+final class OverviewViewController: UIViewController {
     
     // MARK: - UI
     // images

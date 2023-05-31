@@ -40,7 +40,7 @@ enum TabBarItems {
     }
 }
 
-class TabBarController: UITabBarController {
+final class TabBarController: UITabBarController {
     
     // MARK: - Public
     let moviesList = MoviesListCoordinator()

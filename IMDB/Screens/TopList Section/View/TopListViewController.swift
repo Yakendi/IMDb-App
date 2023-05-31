@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class TopListViewController: UIViewController {
+final class TopListViewController: UIViewController {
     
     // MARK: - Public
     weak var delegate: Presenter?

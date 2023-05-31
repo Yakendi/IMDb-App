@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SearchCoordinator: Coordinator {
+final class SearchCoordinator: Coordinator {
     
     // MARK: - Public
     var navigationController: UINavigationController
