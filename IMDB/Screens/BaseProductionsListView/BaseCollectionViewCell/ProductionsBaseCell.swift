@@ -89,7 +89,7 @@ private extension ProductionsBaseCell {
         contentView.addSubview(productionsImageView)
         productionsImageView.snp.makeConstraints { make in
             make.leading.top.trailing.equalToSuperview()
-            make.height.equalToSuperview().multipliedBy(0.77)
+            make.height.equalToSuperview().multipliedBy(0.74)
         }
         
         contentView.addSubview(productionsNameLabel)

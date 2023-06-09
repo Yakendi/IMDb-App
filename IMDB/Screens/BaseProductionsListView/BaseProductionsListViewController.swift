@@ -26,7 +26,7 @@ class BaseProductionsListViewController: UIViewController {
         layout.sectionInset = UIEdgeInsets(top: 0, left: 15, bottom: 0, right: 15)
         layout.itemSize = CGSize(
             width: (view.frame.size.width - 45) / 2,
-            height: (view.frame.size.width - 110)
+            height: (view.frame.size.width - 95)
         )
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collectionView.register(

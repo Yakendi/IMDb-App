@@ -123,12 +123,13 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		C63A6AF82A214AB20028C4ED /* BaseProductionsListViewController */ = {
+		C63A6AF82A214AB20028C4ED /* BaseProductionsListView */ = {
 			isa = PBXGroup;
 			children = (
+				C68A105B2A1B4415008EC464 /* BaseCollectionViewCell */,
 				C63A6AF12A21127F0028C4ED /* BaseProductionsListViewController.swift */,
 			);
-			path = BaseProductionsListViewController;
+			path = BaseProductionsListView;
 			sourceTree = "<group>";
 		};
 		C68A0FEF2A18EA59008EC464 = {
@@ -189,8 +190,7 @@
 				C68A10152A18ED43008EC464 /* AppCoordinator.swift */,
 				C68A101A2A18F4D8008EC464 /* TabBarController.swift */,
 				C63A6AF62A2143FA0028C4ED /* Presenter.swift */,
-				C68A105B2A1B4415008EC464 /* BaseCollectionViewCell */,
-				C63A6AF82A214AB20028C4ED /* BaseProductionsListViewController */,
+				C63A6AF82A214AB20028C4ED /* BaseProductionsListView */,
 				C68A10172A18F024008EC464 /* Movies Section */,
 				C68A101C2A18F5C2008EC464 /* TVShows Section */,
 				C68A10272A190DA4008EC464 /* TopList Section */,

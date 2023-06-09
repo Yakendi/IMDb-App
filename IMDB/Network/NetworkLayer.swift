@@ -38,7 +38,7 @@ final class NetworkService {
                 let response = try self.decoder.decode(Model.self, from: data)
                 completion(.success(response))
             } catch {
-                completion(.failure(NetworkErrorTypes.error(error: error)))
+                completion(.failure(.error(error: error)))
             }
         }
         session.dataTask(with: url, completionHandler: handler).resume()
@@ -61,5 +61,4 @@ final class NetworkService {
             fatalError ("Unhandled HTTP Response Status code: \(httpResponse.statusCode)")
         }
     }
-    
 }
